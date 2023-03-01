@@ -1,0 +1,32 @@
+<div class="container">
+    
+    <h2>Lista de Usuarios</h2> 
+    <br>
+    <p *ngIf="!(usuarios && usuarios.length)">
+        No hay usuarios para mostrar
+    </p>
+    <table class="table" *ngIf="(usuarios && usuarios.length)">
+        <thead>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Número Id</th>
+                <th>Email</th>
+                <th>Fecha</th>
+                <th>Actions</th>
+        </thead>
+        <tbody>
+           <!--Revisar porque no se llenan los datos--> 
+            <tr *ngFor="let item of usuarios">
+                <td>{{item.nombre}}</td>
+                <td>{{item.apellido}}</td>
+                <td>{{item.numeroId}}</td>
+                <td>{{item.email}}</td>
+                <td>{{item.fechaCreacion}}</td>
+                <td>
+                    <button class="btn btn-warning" [routerLink]='["/inicio/usuarios-edit/" + item.id]' >Editar</button>
+                    <button class="btn btn-danger" (click)="deleteData(item.id)">Borrar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

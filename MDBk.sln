@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDBk", "MDBk\MDBk.csproj", "{FDE9ADF4-D446-4BD9-8E2D-B3E6C941E4FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDE9ADF4-D446-4BD9-8E2D-B3E6C941E4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE9ADF4-D446-4BD9-8E2D-B3E6C941E4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE9ADF4-D446-4BD9-8E2D-B3E6C941E4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE9ADF4-D446-4BD9-8E2D-B3E6C941E4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D16B00E-538F-44FD-8C8D-31A345BF44AA}
+	EndGlobalSection
+EndGlobal
